@@ -1,7 +1,8 @@
-version: "3.9"
+version: "3"
 services:
   devops-intro-app:
     image: ${APP_IMAGE}
+    container_name: devops-intro-app
     ports:
       - "80:${PORT}"
     environment:
